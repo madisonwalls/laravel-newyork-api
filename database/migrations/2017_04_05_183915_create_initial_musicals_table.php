@@ -2,6 +2,7 @@
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+
 class CreateInitialMusicalsTable extends Migration
 {
     /**
@@ -17,7 +18,7 @@ class CreateInitialMusicalsTable extends Migration
           $table->string('address')->default('');
           $table->string('theatre')->default('');
           $table->integer('years')->default(0);
-          $table->string('show times');->default('');
+          $table->string('times');->default('');
           $table->timestamps();
         });
     }

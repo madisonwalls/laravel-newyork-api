@@ -41,7 +41,7 @@ class MusicalController extends Controller
       return Response::json(['Updated' => true]);
     }
 
-    public function destroy ()
+    public function destroy (Request $request, $id)
     {
       //Delete /musicals/$id
       //Remove a single musical

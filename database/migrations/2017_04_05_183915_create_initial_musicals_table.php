@@ -18,7 +18,7 @@ class CreateInitialMusicalsTable extends Migration
           $table->string('address')->default('');
           $table->string('theatre')->default('');
           $table->integer('years')->default(0);
-          $table->string('times');->default('');
+          $table->string('times')->default('');
           $table->timestamps();
         });
     }

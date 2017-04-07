@@ -1,3 +1,5 @@
+<!--Migration of Table for Musicals-->
+
 <?php
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;

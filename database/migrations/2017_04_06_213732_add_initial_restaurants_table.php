@@ -1,3 +1,5 @@
+<!--Migration of Table for Restaurants-->
+
 <?php
 
 use Illuminate\Support\Facades\Schema;

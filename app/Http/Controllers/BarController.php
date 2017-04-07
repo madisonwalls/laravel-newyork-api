@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Response;
 
+//Performs all functions connected to the routes
+
 class BarController extends Controller
 {
     public function index ()

@@ -5,9 +5,8 @@
 | Web Routes
 |--------------------------------------------------------------------------
 |
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
+| These routes are loaded by the RouteServiceProvider within a group
+| which contains the "web" middleware group.
 |
 */
 
@@ -23,11 +22,11 @@ Route::put('/musicals/{id}', 'MusicalController@update');
 Route::delete('/musicals/{id}', 'MusicalController@destroy');
 
 
-//Restaurant routes
+//Restaurants routes
 Route::get('/restaurants', 'RestaurantController@index');
 Route::post('/restaurants', 'RestaurantController@create');
 
-//Restaurant singular routes
+//Restaurants singular routes
 Route::get('/restaurants/{id}', 'RestaurantController@show');
 Route::put('/restaurants/{id}', 'RestaurantController@update');
 Route::delete('/restaurants/{id}', 'RestaurantController@destroy');
@@ -41,7 +40,7 @@ Route::get('/bars/{id}', 'BarController@show');
 Route::put('/bars/{id}', 'BarController@update');
 Route::delete('/bars/{id}', 'BarController@destroy');
 
-//HTML/View Responses
+//HTML/Home Page
 
 Route::get('/', function () {
   return view('home');

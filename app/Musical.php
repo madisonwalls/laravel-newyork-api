@@ -1,3 +1,6 @@
+
+<!--Creates Bar Model-->
+
 <?php
 
 namespace App;

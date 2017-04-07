@@ -16,8 +16,9 @@
   <link rel="stylesheet"  type = "text/css" href="../css/styles.css">
 
   </head>
+
+  <!-- Home Page -->
   <body>
-    @yield('content')
     <div class="container">
       <div class="row">
         <div class="col-sm-4 col-sm-offset-4">
@@ -29,8 +30,10 @@
         <div class="col-sm-8 col-sm-offset-2">
           <p>An API that lets users explore all of the different night life options New York City has to offer. It includes musicals, restaurants, and bars. Use the API to list, create, edit, or delete different options within each of these categories. Results are printed in JSON format and provide detailed information about each entry, such as addresses, hours of operations, and ratings.</p>
         </div>
-        <div class="col-sm-5 col-sm-offset-4 doc">
+        <div class="col-sm-8 col-sm-offset-4 doc">
           <p>To read about how to interact with the API, click here:</p>
+        </div>
+        <div class="col-sm-4 col-sm-offset-4 button">
           <a target="_blank" href="https://madisonwalls.gitbooks.io/new-york-night-life-api/content/"><h4>Documentation</h4></a>
         </div>
 
@@ -42,7 +45,7 @@
       <div class="row">
         <div class="col-md-12 footer">
           <a target="_blank" href="http://www.madisonwalls.org"><p>Madison Walls</p></a>
-          <a target="_blank" href="http://www.github.com/madisonwalls"><img src="github.png" width="8%" height="auto"></a>
+          <a target="_blank" href="http://www.github.com/madisonwalls"><img src="github.png" width="80px" height="40px"></a>
         </div>
 
       </div>

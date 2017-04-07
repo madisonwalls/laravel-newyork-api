@@ -1,3 +1,5 @@
+<!--Creates Restaurant Model-->
+
 <?php
 
 namespace App;

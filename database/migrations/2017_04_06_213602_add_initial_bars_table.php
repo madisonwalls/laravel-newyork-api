@@ -17,8 +17,8 @@ class AddInitialBarsTable extends Migration
         $table->increments('id');
         $table->string('name')->default('');
         $table->string('address')->default('');
-        $table->string('rating')->default('');
-        $table->integer('hours')->default(0);
+        $table->string('hours')->default('');
+        $table->integer('rating')->default(0);
         $table->timestamps();
       });
     }

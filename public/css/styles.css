@@ -1,0 +1,63 @@
+@font-face {
+  font-family: NewYork;
+  src: url(PoiretOne-Regular.ttf);
+}
+
+h1 {
+  color: #ccc;
+  text-align: center;
+  font-size: 80px;
+  font-family: NewYork;
+}
+
+img {
+  padding-top: 20px;
+}
+
+p {
+  font-family: avenir-light;
+  color: #ccc;
+  text-align: left;
+  padding: 15px;
+  line-height: 2em;
+}
+
+h4 {
+  font-family: avenir-light;
+  color: #ccc;
+  padding: 15px;
+  border: solid 2px #ccc;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 15%;
+}
+
+h4:hover {
+  font-family: avenir-light;
+  color: #7A7A7A;
+  padding: 15px;
+  border: solid 2px #ccc;
+  display: inline-block;
+  text-align: center;
+  background-color: #E2E2E2;
+}
+
+a:hover {
+  text-decoration: none;
+
+}
+
+.footer p:hover {
+  color: #7A7A7A;
+}
+
+.footer img {
+  display: inline-block;
+  padding-top: 0px;
+}
+
+.footer p {
+  display: inline-block;
+  padding-right: 0px;
+}

@@ -18,8 +18,8 @@ class AddInitialRestaurantsTable extends Migration
         $table->string('name')->default('');
         $table->string('address')->default('');
         $table->string('cuisine')->default('');
-        $table->string('rating')->default('');
-        $table->integer('hours')->default(0);
+        $table->integer('rating')->default(0);
+        $table->string('hours')->default('');
         $table->timestamps();
       });
     }

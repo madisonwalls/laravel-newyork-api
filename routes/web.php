@@ -28,18 +28,18 @@ Route::get('/restaurants', 'RestaurantController@index');
 Route::post('/restaurants', 'RestaurantController@create');
 
 //Restaurant singular routes
-Route::get('/restaurants/{id}', 'restaurantsController@show');
-Route::put('/restaurants/{id}', 'restaurantsController@update');
-Route::delete('/restaurants/{id}', 'restaurantsController@destroy');
+Route::get('/restaurants/{id}', 'RestaurantController@show');
+Route::put('/restaurants/{id}', 'RestaurantController@update');
+Route::delete('/restaurants/{id}', 'RestaurantController@destroy');
 
 //Bars routes
-Route::get('/restaurants', 'RestaurantController@index');
-Route::post('/restaurants', 'RestaurantController@create');
+Route::get('/bars', 'BarController@index');
+Route::post('/bars', 'BarController@create');
 
 //Bars singular routes
-Route::get('/bars/{id}', 'barsController@show');
-Route::put('/bars/{id}', 'barsController@update');
-Route::delete('/bars/{id}', 'barsController@destroy');
+Route::get('/bars/{id}', 'BarController@show');
+Route::put('/bars/{id}', 'BarController@update');
+Route::delete('/bars/{id}', 'BarController@destroy');
 
 //HTML/View Responses
 

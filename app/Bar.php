@@ -1,7 +1,5 @@
-<!--Creates Bar Model-->
-
 <?php
-
+//Creates Bar Model
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;

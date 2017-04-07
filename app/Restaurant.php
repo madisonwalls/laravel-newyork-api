@@ -1,7 +1,5 @@
-<!--Creates Restaurant Model-->
-
 <?php
-
+//Creates Restaurant Model
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;

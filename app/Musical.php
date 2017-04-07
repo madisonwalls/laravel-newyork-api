@@ -1,8 +1,5 @@
-
-<!--Creates Bar Model-->
-
 <?php
-
+//Creates Musical Model
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;

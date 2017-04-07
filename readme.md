@@ -4,11 +4,11 @@ An API that lets users explore all of the different night life options New York 
 
 Using Laravel as a framework, I created this application using PHP and users can access the required database through AJAX requests.
 
-##Documentation
+## Documentation
 
 https://madisonwalls.gitbooks.io/new-york-night-life-api/content/
 
-##Required Programs
+## Required Programs
 
 IMPORTANT: this application works using Chrome
 
@@ -17,7 +17,7 @@ IMPORTANT: this application works using Chrome
 - MAMP https://www.mamp.info/
 - Advanced REST Client https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo?hl=en-US
 
-##How to Access the API
+## How to Access the API
 
 1. Clone this repository
 2. Using MAMP, change the 'Web Server' option under 'Preferences' to the public folder of 'laravel-newyork-api-master'.
